@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Task and TaskList Components
+
+This project includes two main components:
+
+### Task Component
+
+The `Task` component represents an individual task. It displays task details such as name, description, and status. Users can edit or delete tasks using this component.
+
+### TaskList Component
+
+The `TaskList` component manages the list of tasks. It allows users to add new tasks, edit existing tasks, and delete tasks. Users can also sort tasks by ID or name and filter tasks based on their status. Pagination is implemented to display a limited number of tasks per page.
